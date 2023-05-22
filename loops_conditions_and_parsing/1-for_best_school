@@ -1,4 +1,2 @@
 #!/usr/bin/env bash
-for (( c=1; c<=10; c++ ))
-do
-    echo "Best School"
+echo "Best School" for (( c=1; c<=10; c++ ))
