@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
-# displays Best School 10 times.
-
-COUNTER=0
-while [ $COUNTER -lt 10 ]
+# This display Best School 10 times, from zero to nine and using the -lt flag: less than 
+b=0
+while [ $b -lt 10 ]
 do
-    echo "Best School"
-    let COUNTER=COUNTER+1
-done
+		echo "Best School"
+			(( b++ ))
+		done
